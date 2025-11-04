@@ -65,7 +65,10 @@
 .cover {
     height: 757px;
     position: relative;
-    background: url(../images/cover.jpg) center/cover no-repeat;
+    background-image: url(../images/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 165px 50px 50px;
 }
 
@@ -196,7 +199,7 @@
    font-weight: 400;
    font-size: 20px;
    line-height: 120%;
-   color: #FFFFFF;
+   color: white;
    position: relative;
    z-index: 2;
 }
