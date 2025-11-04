@@ -45,6 +45,8 @@
 
 .header__link_active {
   text-decoration: none;
+   font-size: 18px;
+  line-height: 21px;
 }
 
 .header__logo {
@@ -64,9 +66,7 @@
   max-width: 240px;
 }
 
-.address a {
-  text-decoration: underline;
-}
+
 
 .header__address {
   justify-self: end;
@@ -135,6 +135,7 @@
     font-weight: 500;
     font-size: 22px;
 }
+
 
 .lots {
   padding: 180px 24px 120px;
